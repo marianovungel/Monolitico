@@ -1,0 +1,110 @@
+.fullContenUser{
+    width: 55%;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.userInfo{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+    text-align: center;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dados{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.expretionData{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+.imgUser{
+    flex: 6;
+}
+.use{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.Iselect{
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+.userInputB{
+    width: 100%;
+    border-radius: 10px;
+}
+.inputbBortder{
+    border: none;
+    background-color: #fff;
+    height: 47px;
+    border-bottom: 1px solid #666;
+}
+.inputbBortder:focus{
+    border: none;
+    background-color: #fff;
+    height: 47px;
+    border-bottom: 1px solid #666;
+    outline: 0;
+}
+.entrarbutton{
+    background-color: #1597E5;
+}
+.entrarbutton:disabled{
+    background-color: #8acbf3;
+}
+.ButtonBackgrondcolor{
+    background-color: #2043be;
+    color: #fff;
+    border: none;
+    height: 45px;
+}
+.Bselect{
+    font-size: 17pt;
+}
+.photoUserI{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.borderImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.bolinha{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2043be;
+    margin-top: -35px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.iconColor{
+    color: #fff;
+}
+.displayNone{
+    display: none;
+}

@@ -1,0 +1,42 @@
+.fullContenUser{
+    width: 55%;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.compartilhamentoDivulgacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
+.compartilharDiv{
+    width: 100%;
+    margin: 0px auto 10px auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.compartilharDiv::-webkit-scrollbar{
+    display: none;
+}
+.buttomGrupe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttomLeft{
+    cursor: pointer;
+}
+.widthIconButtom{
+    font-size: 25pt;
+}
+.margnLeft{
+    margin-right: 12px;
+}
+.marginRight{
+    margin-left: 12px;
+}

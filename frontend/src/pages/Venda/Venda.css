@@ -1,0 +1,692 @@
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #F6F3F3;
+    margin-top: -70px;
+    padding: 0px;
+}
+.girar{
+    color: #fff;
+    cursor: not-allowed;
+    font-size: 18pt;
+    animation: girarr 1s linear infinite;
+}
+@keyframes girarr{
+    from{ transform: rotate(360deg) }
+}
+#ativ{
+    cursor: pointer;
+}
+#cancelform{
+    cursor: pointer;
+}
+.sidebarw{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    min-width: 300px;
+    margin-top: 70px;
+    background-color: #F6F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#textArea{
+    padding: 10px;
+}
+.cadastrarProdutonew{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.formProdutonewww{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+    max-height: 550px;
+    background-color: #193498;
+    margin: 95px auto 0px auto;
+    border-radius: 10px;
+}
+#shoop{
+    color: #fff;
+    font-size: 35pt;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+}
+.banner{
+    height: 110px;
+    width: 400px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.buttonCadastrar{
+    background-color: #193498;
+    font-size: 16pt;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 200px;
+    height: 90px;
+    border-radius: 20px 0px 0px 20px;
+}
+.corpoBanner{
+    background-color: rgb(47, 226, 77);
+    height: 90px;
+    z-index: 50;
+    padding-right: 100px;
+    padding-left: 10px;
+    font-size: 11pt;
+    text-align: justify;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.BannerCadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangulo{
+    z-index: 70;
+    margin-left: -50px;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    border-right: 50px solid #F6F3F3;
+}
+.fotoProduto{
+    width: 90%;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+}
+.produtoFormModalnew{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.colorbutton{
+    background-color: #69DADB;
+    color: #fff;
+}
+.inputProdutonew{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 1px 2px 1px 2px;
+}
+.storynew{
+    margin-top: 20px;
+    border-radius: 20px;
+    max-width: 80%;
+    min-width: 100px;
+    width: 80%;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 1px 2px 1px 2px;
+}
+.imgPostPreviw{
+    width: 100px;
+    height: 100px;
+}
+.imgInputContentnew{
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0px;
+}
+.todosProdutosnew{
+    color: #fff;
+    margin-top: 30px;
+}
+.ativeCadastrar{
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 12pt;
+    background-color: #193498;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 1px 1px 3px 1px #666;
+    font-weight: 400;
+}
+
+
+
+@media (min-width: 1120px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1074px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .banner{
+        display: none;
+    }
+    
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 947px){
+    .ativeCadastrar{
+        position: absolute;
+        top: 133px;
+        left: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        font-size: 10pt;
+        background-color: #193498;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 945px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 885px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 130px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 885px){
+    .ativeCadastrar{
+        position: absolute;
+        top: 133px;
+        left: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        font-size: 10pt;
+        background-color: #193498;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 831px){
+    .ativeCadastrar{
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        font-size: 10pt;
+        background-color: #193498;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 70px;
+    }
+    .banner{
+        display: none;
+    }
+    .ativeCadastrar{
+        position: absolute;
+        top: 120px;
+        left: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        font-size: 10pt;
+        background-color: #193498;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 804px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 70px;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 775px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .ativeCadastrar{
+        display: none;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 775px){
+    .ativeCadastrar{
+        display: none;
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 77%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 683px){
+    .ativeCadastrar{
+        display: none;
+
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 470px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 75px;
+    }
+    .ativeCadastrar{
+        display: none;
+
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 462px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .ativeCadastrar{
+        display: none;
+
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 88%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 406px){
+    .ativeCadastrar{
+        display: none;
+
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 380px){
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .ativeCadastrar{
+        display: none;
+
+    }
+}
+@media (max-width: 280px){
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+    .ativeCadastrar{
+        display: none;
+
+    }
+}
+@media (max-width: 237px){
+    .sidebar{
+        position: relative;
+        height: 100%;
+        background-color: #F6F3F3;
+        min-width: 300px;
+        width: 100%;
+        margin: 75px auto 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 90px;
+    }
+    .ativeCadastrar{
+        display: none;
+
+    }
+    .formProdutonew{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+        background-color: #193498;
+        margin: 120px auto 0px auto;
+        border-radius: 10px;
+    }
+}
+.FooterContainerFix{
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+}

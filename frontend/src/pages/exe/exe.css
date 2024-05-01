@@ -1,0 +1,49 @@
+.menuBootstrap{
+    background-color: #193498;
+}
+.braca{
+    color: #fff;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+.logoBootstrap{
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    font-family: 'Roboto', sans-serif;
+}
+.colorBranca{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+@media(min-width: 991px){
+    .imagemLogo{
+        display: none;
+    }
+}
+@media(max-width: 775px){
+    .headerAluguel{
+        display: none;
+    }
+    .OI{
+        display: none;
+    }
+    .menuBootstrap{
+        background-color: #193498;
+    }
+    .contentSideBar{
+        margin-top: 10px;
+    }
+}
+@media(min-width: 775px){
+    .contentSideBar{
+        margin-top: 100px;
+    }
+}
+@media(max-width: 458px){
+    .logoBootstrap{
+        width: 70px;
+        height: 70px;
+        margin-top: -20px;
+    }
+}

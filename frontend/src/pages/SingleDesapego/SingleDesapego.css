@@ -1,0 +1,130 @@
+.principalDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vaziaDesapego{
+    flex: 3.5;
+    margin-top: 80px;
+}
+.singleCardDesapego{
+    flex: 5;
+    margin-top: 80px;
+}
+.editFormDesapego{
+    flex: 3.5;
+    margin-top: 80px;
+}
+.CardPrincipal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgSingleContentDesapego{
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 4px solid #666;
+    
+}
+#photodesapegoId{
+    width: 100%;
+    height: 350px;
+}
+.crudButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p{
+    color: #666;
+    font-size: 11pt;
+}
+#headerDesapegoSingle{
+    background-color: rgb(170, 169, 169);
+    border-radius: 5px 5px 0px 0px;
+}
+.divStatus{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10px;
+}
+.buttonEditarDesapego{
+    font-size: 16pt;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(210, 241, 12);
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(77, 76, 10, 0.3);
+    box-shadow: 1px 1px 1px 3px rgba(77, 76, 10, 0.3);
+}
+.buttonEditarDesapego:hover{
+    cursor: pointer;
+}
+.buttonDeletarDesapego{
+    font-size: 16pt;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(241, 46, 12);
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(77, 76, 10, 0.3);
+    box-shadow: 1px 1px 1px 3px rgba(77, 76, 10, 0.3);
+}
+.buttonDeletarDesapego:hover{
+    cursor: pointer;
+}
+.buttonZapDesapego{
+    font-size: 16pt;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(47, 255, 61);
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(6, 6, 6, 0.3);
+    box-shadow: 1px 1px 1px 3px rgba(15, 79, 25, 0.3);
+}
+.buttonZapDesapego:hover{
+    cursor: pointer;
+}
+.zapButtonDezapego{
+    width: 100%;
+}
+#zap{
+    width: 450px;
+    min-width: 200px;
+}
+.zapdivDesapego{
+    width: 450px;
+    min-width: 200px;
+}
+#ligado{
+    color: rgb(40, 83, 239);
+    font-size: 13pt;
+}
+.ligado{
+    color: rgb(40, 83, 239);
+    font-size: 13pt;
+}
+.editFormDesapego{
+    display: flex;
+    justify-content: center;
+}
+.detales{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sizeColor{
+    font-size: 15pt;
+    color: rgb(40, 83, 239);
+}

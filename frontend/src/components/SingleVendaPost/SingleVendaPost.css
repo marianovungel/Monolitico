@@ -1,0 +1,28 @@
+.fullContentSingleVendaPost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteinerSinglePostVendaSingleVendaPost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fullContentModerador{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.descContentMonitor{
+    height: 255px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#colorAprovado{
+    border-color: rgb(50, 206, 50);
+    box-shadow: rgb(50, 206, 50);
+    background-color: rgb(50, 206, 50);
+}

@@ -1,0 +1,19 @@
+.imgDivSingleClass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photoVendaclassName{
+    width: 75px;
+    height: 75px;
+    margin: 5px 2px 1px 2px;
+    overflow:hidden;
+    border-radius: 10px;
+    border: 1px solid #666;
+    transform: scale(0.95);
+}
+.photoVendaclassName:hover{
+    transform: scale(1);
+    opacity: 0.5;
+    transition: 2s;
+}

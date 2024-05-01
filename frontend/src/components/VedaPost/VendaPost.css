@@ -1,0 +1,45 @@
+.fullVendaPost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardVendaPost{
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid #999;
+    color: #666;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #999;
+
+}
+.verPost{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eyesClass{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%;
+    padding: 10px;
+}
+.eyesClass:hover{
+    background-color: rgba(40, 39, 39, 0.1);
+    border-radius: 10px;
+    transition: 0.3s;
+}

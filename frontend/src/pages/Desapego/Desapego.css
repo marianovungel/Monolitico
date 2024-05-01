@@ -1,0 +1,598 @@
+.desapego{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.sidebarDesapego{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+.imgcircul{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    object-fit: cover;
+    margin-left: 5px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+.sidebarCardDesapego{
+    flex: 4.6;
+    min-width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 3px  0px 0px;
+    margin-top: 65px;
+}
+
+.cadastrarProduto{
+    position: relative;
+    width: 320px;
+    height: 100vh;
+}
+
+/* +++++++++++++++++++++++++++++++++++ */
+.bannerDesapego{
+    flex: 3.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formProdutoDesapego{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+    /* max-width: 300px; */
+    background-color: #193498;
+    margin: 95px auto 0px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    max-height: 550px;
+}
+
+.fotoProduto{
+    width: 90%;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+}
+.produtoFormModal{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.colorbutton{
+    background-color: #69DADB;
+    color: #fff;
+}
+.inputProduto{
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 1px 2px 1px 2px;
+}
+.inputProduto:focus, .story:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.story{
+    margin-top: 20px;
+    border-radius: 20px;
+    max-width: 90%;
+    min-width: 100px;
+    width: 90%;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 1px 2px 1px 2px;
+}
+.imgPostPreviw{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 100px;
+}
+.imgPostPreviwIcon{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.imgPostPreviwIconContent{
+    width: 100px;
+    height: 100px;
+}
+.bannerDesapegoFast{
+    margin-top: 100px;
+    width: 300px;
+    position: relative;
+}
+.h3Desapego{
+    border: none;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    text-align: center;
+    width: 100%;
+    color: #666;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.bannerDesapegoimg{
+    width: 100%;
+    object-fit: cover;
+}
+.bannerDesapegoP{
+    margin-top: -5px;
+    text-align: justify;
+    margin-bottom: -50px;
+    padding: 5px;
+}
+.h3Desapego2{
+    border: none;
+    border-top: 1px dashed #666;
+    text-align: center;
+    color: #666;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.bannerDesapegoPp{
+    padding: 5px;
+    background-color: #193498;
+    color: #fff;
+    margin-top: -5px;
+    text-align: justify;
+}
+/* +++++++++++++++++++++++++++++++ */
+.cadastrarProdutoCallForm{
+    flex: 3.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonCad{
+    color: #fff;
+    background-color: #193498;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px #666;
+    z-index: 90;
+    cursor: pointer;
+}
+
+/* +++++++++++++++++++++++++++++++++++ */
+.scroll{
+    height: 100%;
+    padding: 0px 3px  0px 0px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    scrollbar-color: #666;
+    scroll-margin-right: 80px;
+}
+.filtrar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.itemList{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+.filtraritem{
+    color: #666;
+    font-size: 12pt;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filtraritem:hover{
+    background-color: #94aaf9;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.filtrarh4{
+    border: none;
+    border-top: 3px solid #666;
+    width: 100%;
+}
+.filtraritemSpace{
+    margin-left: 10px;
+}
+.allCard{
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    padding-top: 15px;
+}
+.divHeader{
+    height: 30px;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+#idImg{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    border: 2px solid rgba(6, 6, 6, 0.3);
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SpanUsername{
+    font-size: 12pt;
+    margin-left: 10px;
+    color: #666;
+}
+.divHero{
+    height: 350px;
+    width:100%;
+    border-top: 2px solid #666;
+}
+#heroIgm{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.divFooter{
+    background-color: rgba(6, 6, 6, 0.2);
+    border-top: 2px solid #666;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.buttonSaiba{
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 10px;
+    color: #666;
+    border: none;
+}
+.descClassName{
+    width: 100%;
+    padding: 10px;
+}
+.descSpan{
+    width: 100%;
+    text-align: justify;
+    font-size: 10pt;
+    box-sizing: border-box;
+}
+.spanDate{
+    font-size: 8pt;
+    color:#666;
+    margin-left: 20px;
+}
+.searchformInportDesapego{
+    width: 96%;
+    height: 65px;
+    border-radius: 25px;
+    border-color: #666;
+    border: 1px solid #666;
+    padding-right: 50px;
+    padding-left: 10px;
+    font-size: 13pt;
+    margin-left: 0px;
+}
+.filtraritemCat{
+    color: #666;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.inputProdutoselet{
+    color: #666;
+    font-size: 12pt;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.inputProdutoselet:hover{
+    background-color: #94aaf9;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.inputProdutoselet:focus{
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #666;
+}
+.imgInputContentform{
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.inputSeletItem{
+    text-decoration: border;
+    color: #666;
+    border: none;
+    font-weight: 650;
+
+}
+#filtraritemSpaceId{
+    width: 100%;
+    height: 50px;
+    border: 2px  solid #193498;
+    padding-left: 10px;
+}
+#filtraritemSpaceIdButton{
+    background-color: #193498;
+    color: #fff;
+    font-size: 13pt;
+}
+#searchFormDesapego{
+    margin-right: 0px;
+}
+
+
+@media (max-width: 650px){
+    .formProdutoDesapego{
+    
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width: 30%;
+        min-width: 300px;
+        /* max-width: 300px; */
+        background-color: #193498;
+        margin: 90px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 17px;
+        max-height: 550px;
+    }
+    .sidebarDesapego{
+        width: 100%;
+        height: 100%;
+        margin-top: -55px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .filtrar{
+        display: none;
+    }
+
+    /* +++++++++++++++++++++++++++++++++ */
+    .sidebarCardDesapego{
+        margin-top: -70px;
+        flex: 12;
+        width: 100%;
+        min-width: 40%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .bannerDesapego{
+        display: none;
+        
+    }
+    .buttonCad{
+        color: #fff;
+        background-color: #193498;
+        height: 35px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 90px 0px -100px 0px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 1px #666;
+    }
+    .searchformx{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+}
+@media (max-width: 600px){
+    .formProdutoDesapego{
+    
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        width: 30%;
+        min-width: 300px;
+        /* max-width: 300px; */
+        background-color: #193498;
+        margin: 90px auto 0px auto;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 17px;
+        max-height: 550px;
+    }
+    .sidebarDesapego{
+        width: 100%;
+        height: 100%;
+        margin-top: -55px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .filtrar{
+        display: none;
+    }
+    .sidebarCardDesapego{
+        margin-top: -70px;
+        flex: 12;
+        width: 100%;
+        min-width: 40%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .bannerDesapego{
+        display: none;
+        
+    }
+    .buttonCad{
+        color: #fff;
+        background-color: #193498;
+        height: 35px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 90px 0px -100px 0px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 1px #666;
+    }
+    .searchform{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 381px){
+    .sidebarDesapego{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .filtrar{
+        display: none;
+    }
+    .sidebarCardDesapego{
+        flex: 12;
+        width: 100%;
+        min-width: 40%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0px 10px 0px 10px;
+        margin-top: 65px;
+    }
+    .buttonCad{
+        color: #fff;
+        background-color: #193498;
+        height: 35px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 90px 0px -100px 0px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 1px #666;
+    }
+    .searchform{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .searchformInportDesapego{
+        width: 95%;
+        height: 50px;
+        border-radius: 25px;
+        border-color: #666;
+        border: 1px solid #666;
+        padding-right: 50px;
+        padding-left: 10px;
+        font-size: 13pt;
+        margin-left: 0px;
+    }
+
+}

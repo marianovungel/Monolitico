@@ -1,0 +1,252 @@
+.fullContentAluguel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.headerAluguel{
+    margin-top: 90px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-bottom: 1px solid #999;
+    position: fixed;
+    z-index: 80;
+}
+.flexHeaderAluguel{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonHeaderAluguel{
+    width: 200px;
+    height: 45px;
+    color: #666;
+    font-size: 15pt;
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px rgba(9, 9, 9, 0.4);
+    transform: scale(0.95);
+}
+.buttonHeaderAluguel:hover{
+    transform: scale(1);
+    transition: 3s;
+    cursor: pointer;
+}
+.formSearchAluguelHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inputParaPesquisarAluguel{
+    height: 45px;
+    width: 300px;
+    max-width: 300px;
+    min-width: 100px;
+    border: 0.8px solid #999;
+    border-radius: 3px 0px 0px 3px;
+    padding: 10px 2px 10px 2px;
+}
+.botaoDePesquisaAluguel{
+    height: 45px;
+    width: 100px;
+    max-width: 300px;
+    min-width: 100px;
+    border: 0.8px solid #999;
+    border-radius: 0px 3px 3px 0px;
+    padding: 10px 2px 10px 2px;
+    background-color: green;
+}
+.botaoDePesquisaAluguel:hover{
+    cursor: pointer;
+}
+.contentSideBar{
+    width: 60%;
+    margin: 150px auto 0px auto;
+}
+.cardAluguel{
+    width: 80%;
+    margin: 0px auto 12px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(212, 206, 206);
+    border-radius: 20px;
+    padding: 3px;
+    box-shadow: 1px 1px 0px #666;
+
+}
+.buttonHeaderAluguela{
+    width: 100%;
+    min-width: 50%;
+    height: 45px;
+    color: #fff;
+    font-size: 15pt;
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px rgba(9, 9, 9, 0.4);
+    transform: scale(0.95);
+    background-color: rgb(35, 35, 241);
+    cursor: pointer;
+    position: relative;
+}
+.descPlaceAluguel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+}
+.ajustPositionDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 35px;
+}
+.buttomContentInfo{
+    padding: 5px;
+    width: 100%;
+}
+.imgAluguelCard{
+    border-radius: 20px;
+    width: 50%;
+    height: 300px;
+}
+#alugarCasa{
+    background-color: black;
+    color: rgb(225, 222, 222);
+}
+@media(max-width: 889px){
+    .contentSideBar{
+        width: 60%;
+        margin: 150px auto 0px auto;
+    }
+    .cardAluguel{
+        width: 100%;
+        margin: 0px auto 12px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(212, 206, 206);
+        border-radius: 20px;
+        padding: 3px;
+        box-shadow: 1px 1px 0px #666;
+    
+    }
+}
+@media(max-width: 750px){
+    .contentSideBar{
+        width: 70%;
+        margin: 150px auto 0px auto;
+    }
+    .cardAluguel{
+        width: 100%;
+        margin: 0px auto 12px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(212, 206, 206);
+        border-radius: 20px;
+        padding: 3px;
+        box-shadow: 1px 1px 0px #666;
+    
+    }
+}
+@media(max-width: 650px){
+    .contentSideBar{
+        width: 80%;
+        margin: 150px auto 0px auto;
+    }
+    .cardAluguel{
+        width: 100%;
+        margin: 0px auto 12px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(212, 206, 206);
+        border-radius: 20px;
+        padding: 3px;
+        box-shadow: 1px 1px 0px #666;
+    
+    }
+}
+@media(max-width: 550px){
+    .contentSideBar{
+        width: 90%;
+        margin: 150px auto 0px auto;
+    }
+    .cardAluguel{
+        width: 100%;
+        margin: 0px auto 12px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(212, 206, 206);
+        border-radius: 20px;
+        padding: 3px;
+        box-shadow: 1px 1px 0px #666;
+    
+    }
+}
+@media(max-width: 474px){
+    .contentSideBar{
+        width: 70%;
+        margin: 150px auto 0px auto;
+    }
+    .imgAluguelCard{
+        border-radius: 20px;
+        width: 100%;
+        height: 300px;
+    }
+    .descPlaceAluguel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .editP{
+        font-size: 12pt;
+    }
+}
+@media(max-width: 350px){
+    .contentSideBar{
+        width: 80%;
+        margin: 150px auto 0px auto;
+    }
+}
+@media(max-width: 300px){
+    .contentSideBar{
+        width: 90%;
+        margin: 150px auto 0px auto;
+    }
+    .cardAluguel{
+        width: 100%;
+        margin: 0px auto 12px auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(212, 206, 206);
+        border-radius: 20px;
+        padding: 3px;
+        box-shadow: 1px 1px 0px #666;
+    
+    }
+}

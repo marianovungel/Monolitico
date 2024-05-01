@@ -1,0 +1,208 @@
+.seletContent{
+    width: 250px;
+    height: 45px;
+    list-style: lower-alpha;
+    border-radius: 15px;
+    padding: 10px;
+}
+.contentSideBarComp{
+    width: 80%;
+    margin: 100px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.selectDiv{
+    display: none;
+}
+.cardAluguelnew{
+    width: 370px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+    -webkit-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+    -moz-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+    /* margin-bottom: 20px; */
+    margin: 0px auto 20px auto;
+}
+.imagemAluguelSection{
+    width: 370px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.descritionAluguelSetion{
+    width: 370px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.pdescriçãoAluguel{
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+}
+.buttonAluguelSection{
+    width: 370px;
+    height: 40px;
+}
+.buttonAluguelInfoCard{
+    width: 370px;
+    height: 40px;
+    color: #fff;
+    background: linear-gradient(blue, rgba(10, 16, 40, 0.92));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.imgAluguelCArdAdd{
+    width: 370px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    /* border-bottom-left-radius: 30px; */
+    border-top-right-radius: 10px;
+    
+}
+@media(max-width: 924px){
+    .cardAluguelnew{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        -webkit-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        -moz-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        /* margin-bottom: 20px; */
+        margin: 0px auto 20px auto;
+    }
+    .imagemAluguelSection{
+        width: 300px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .descritionAluguelSetion{
+        width: 300px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .pdescriçãoAluguel{
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+    }
+    .buttonAluguelSection{
+        width: 300px;
+        height: 40px;
+    }
+    .buttonAluguelInfoCard{
+        width: 300px;
+        height: 40px;
+        color: #fff;
+        background: linear-gradient(blue, rgba(10, 16, 40, 0.92));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .imgAluguelCArdAdd{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        /* border-bottom-left-radius: 30px; */
+        border-top-right-radius: 10px;
+        
+    }
+} 
+@media(max-width: 774px){
+    .flexHeaderAluguel{
+        display: none;
+    }
+    .contentSideBarComp{
+        width: 80%;
+        margin: 100px auto 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .cardAluguelnew{
+        width: 370px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        -webkit-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        -moz-box-shadow: 1px -1px 13px -3px rgba(26,51,161,0.92);
+        /* margin-bottom: 20px; */
+        margin: 0px auto 20px auto;
+    }
+    .imagemAluguelSection{
+        width: 370px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .descritionAluguelSetion{
+        width: 370px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .pdescriçãoAluguel{
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+    }
+    .buttonAluguelSection{
+        width: 370px;
+        height: 40px;
+    }
+    .buttonAluguelInfoCard{
+        width: 370px;
+        height: 40px;
+        color: #fff;
+        background: linear-gradient(blue, rgba(10, 16, 40, 0.92));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .imgAluguelCArdAdd{
+        width: 370px;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        /* border-bottom-left-radius: 30px; */
+        border-top-right-radius: 10px;
+        
+    }
+} 

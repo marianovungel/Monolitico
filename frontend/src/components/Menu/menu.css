@@ -1,0 +1,169 @@
+.menu{
+    background-color: #193498;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: #F6F3F3;
+    align-items: center;
+    position: fixed;
+    z-index: 95;
+    font-family: 'Roboto', sans-serif;
+}
+#idManu{
+    text-decoration: none;
+    color: #fff;
+}
+#idManu:hover{
+    color: yellow;
+}
+#idmenu1{
+    text-decoration: none;
+}
+#idmenu1:hover{
+    color: #666;
+}
+.blueHeader{
+    width: 100%;
+    min-width: 100%;
+}
+ul{
+    list-style: none;
+    max-width: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    transform: scale(0.98);
+    font-family: 'Roboto', sans-serif;
+}
+li:hover{
+    transform: scale(1);
+    cursor: pointer;
+}
+.logo{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.menuList{
+    flex: 8;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.fotoPerfil{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 100px;
+    height: 70px;
+
+}
+
+#colorandPoiter{
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.imagemLogo{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.fotoPerfilImg{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.smollUsername{
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 8pt;
+}
+#navDesa{
+    display: none;
+}
+@media (max-width: 930px){
+    .imagemLogo{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 775px){
+    .menu{
+        background-color: #193498;
+        width: 100%;
+        min-width: 100%;
+        height: 90px;
+        display: flex;
+        color: #F6F3F3;
+        align-items: center;
+        position: fixed;
+        z-index: 99;
+    }
+    .blueHeader{
+        width: 100%;
+        min-width: 100%;
+    }
+    .imagemLogo{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+    .menuList{
+        display: none;
+    }
+    #navDesa{
+        display: flex;
+        margin-top: 75px;
+    }
+    #contentMenuBox{
+        margin-top: 60px;
+        background-color: #193498;
+        width: 100%;
+    }
+    #iconMenuBut{
+        margin-bottom: 25px;
+        color: #F6F3F3;
+    }
+}
+
+@media (max-width: 459px){
+    .blueHeader{
+        width: 100%;
+        min-width: 100%;
+    }
+    .imagemLogo{
+        width: 100px;
+        height: 100px;
+    }
+    .menuList{
+        display: none;
+    }
+    #navDesa{
+        display: flex;
+        margin-top: 75px;
+        z-index: 100;
+    }
+    #contentMenuBox{
+        margin-top: 60px;
+        background-color: #193498;
+        width: 100%;
+        min-width: 100%;
+    }
+    #iconMenuBut{
+        margin-bottom: 25px;
+        color: #F6F3F3;
+    }
+}

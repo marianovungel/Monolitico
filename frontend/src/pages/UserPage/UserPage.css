@@ -1,0 +1,28 @@
+.topMargin{
+    margin-top: 0px;
+    z-index: 99;
+}
+.UserPage{
+    width: 100%;
+    height: 100vh;
+}
+
+/**/
+.fullContenUser{
+    width: 55%;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.imgMenuHumburguer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+@media(max-width: 991px){
+    .topMargin{
+        margin-top: 30px;
+    }
+}

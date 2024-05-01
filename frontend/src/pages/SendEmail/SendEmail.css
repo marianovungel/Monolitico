@@ -1,0 +1,589 @@
+.sendEmail{
+    width: 100%;
+    height: 100%;
+}
+.vidSeparadora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.receberReSend{
+    margin-left: 10px;
+}
+.enterEmail{
+    width: 35%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: wheat;
+    margin: 50px auto 0px auto;
+    border-radius: 10px;
+    border: 1px solid #666;
+    box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+    padding: 10px;
+    animation-name: scalimentarx;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+@keyframes scalimentarx{
+    from{ transform: scale(0)}
+    to{ transform: scale(1)}
+}
+.enterEmailInput{
+    width: 35%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: wheat;
+    margin: 50px auto 0px auto;
+    border-radius: 10px;
+    border: 1px solid #666;
+    box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+    padding: 10px;
+    animation-name: scalimentarinput;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes scalimentarinput{
+    from{ transform: rotateY(360deg)}
+    to{ transform: rotateY(0deg)}
+}
+.enterEmailConfirm{
+    width: 35%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: wheat;
+    margin: 50px auto 0px auto;
+    border-radius: 10px;
+    border: 1px solid #666;
+    box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+    animation-name: scalimentarconfirm;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes scalimentarconfirm{
+    from{ transform: rotate(360deg) scale(0.2)}
+    to{ transform: rotate(0deg) scale(1)}
+}
+.imgenterEmail{
+    margin-top: -20px;
+    width: 200px;
+    height: 200px;
+}
+.h4enterEmail{
+    margin-top: -40px;
+    color: #666;
+}
+.inputEnterEmail{
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 2.5px solid #666;
+    border-radius: 10px;
+}
+.buttonsEnterEmail{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.buttonsEnterEmailSecund{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.cancelColor{
+    background-color: rgb(247, 53, 53);
+    border: 1px solid rgb(97, 3, 3);
+    color: rgb(249, 223, 220);
+}
+.receberColor{
+    background-color: rgb(16, 83, 218);
+    border: 1px solid rgb(2, 25, 71);
+    color: rgb(220, 235, 249);
+}
+.receberReSend{
+    background-color: rgb(2, 15, 39);
+    border: 1px solid rgb(7, 31, 78);
+    color: rgb(220, 235, 249);
+}
+.cancelEnterEmail{
+    height: 43px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.penterEmail{
+    width: 80%;
+}
+.cod{
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+@media(max-width: 1256px){
+    .cancelarButt{
+        width: 40%;
+    }
+    .pixValor{
+        width: 100%;
+    }
+    .enterEmailInput{
+        width: 55%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 45%;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .buttonsEnterEmailSecund{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .canc{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .vidSeparadora{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cancBlue{
+        width: 100%;
+    }
+}
+@media(max-width: 990px){
+    .enterEmailConfirm{
+        width: 45%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 45%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 773px){
+    .enterEmailInput{
+        width: 65%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 65%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 55%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 650px){
+    .enterEmailInput{
+        width: 70%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 65%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 550px){
+    .enterEmailInput{
+        width: 75%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 75%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 75%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 501px){
+    .enterEmailInput{
+        width: 75%;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 75%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 75%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 463px){
+    .enterEmailInput{
+        width: 85%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 85%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 85%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 410px){
+    .enterEmailInput{
+        width: 90%;
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 90%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 90%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 385px){
+    .enterEmailInput{
+        width: 955%;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmailConfirm{
+        width: 95%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .enterEmail{
+        width: 95%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+}
+@media(max-width: 365px){
+    .enterEmailInput{
+        width: 98%;
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .canc{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .vidSeparadora{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cancBlue{
+        width: 100%;
+    }
+    .enterEmail{
+        width: 95%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: wheat;
+        margin: 50px auto 0px auto;
+        border-radius: 10px;
+        border: 1px solid #666;
+        box-shadow: 1px 1px 1px 1px rgba(6, 6, 6, 0.8);
+        padding: 10px;
+    }
+    .buttonsEnterEmail{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .cancelEnterEmail{
+        height: 43px;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .cod{
+        color: red;
+        margin-top: 10px;
+        text-align: center;
+    }
+}

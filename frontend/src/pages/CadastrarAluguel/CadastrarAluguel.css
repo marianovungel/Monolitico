@@ -1,0 +1,144 @@
+.contentSideBarForm{
+    width: 41%;
+    margin: 150px auto 0px auto;
+    background: linear-gradient(#F6F3F3, #5574e1);
+    border-radius: 10px;
+}
+.buttonHeaderAluguelHeaderCadastrar{
+    font-size: 20pt;
+    color: #666;
+    text-align: center;
+}
+.formCadastrarContent{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.imgPhotosHoome{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputFotoLabelAlugel{
+    display: none;
+}
+.headerI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12pt;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sizeAdd{
+    font-size: 30pt;
+}
+.labelFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.precoType{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.precoTypeInput{
+    width: 35%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 14pt;
+    background-color: #fff;
+    color: #666;
+    border: none;
+    border-bottom: 1px solid #666;
+    margin-top: 20px;
+}
+.precoTypeInputNumber{
+    width: 30%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 7pt;
+    background-color: #fff;
+    color: #666;
+    border: none;
+    border-bottom: 1px solid #666;
+    margin-top: 20px;
+}
+
+.forNewDesc{
+    width: 85%;
+    max-width: 85%;
+    min-width: 85%;
+    height: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    padding-left: 10px;
+    font-size: 12pt;
+    background-color: #fff;
+    color: #666;
+    border: none;
+    border-bottom: 1px solid #666;
+    margin-top: 20px;
+}
+.CadastrarcasaEmAluguel{
+    width: 87%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #193498;
+    /* color: #030b25; */
+    color: #fff;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+.headerIAlert{
+    width: 100%;
+    border: 1px solid rgba(247, 33, 33, 0.742);
+    box-shadow: 1px 1px 1px rgba(247, 33, 33, 0.742);
+    text-align: center;
+    padding: 8px;
+}
+@media(min-width: 885px){
+    .contentSideBarForm{
+        width: 42%;
+        margin: 100px auto 0px  auto;
+        background: linear-gradient(#F6F3F3, #5574e1);
+    }
+}
+@media(max-width: 775px){
+    .contentSideBarForm{
+        width: 55%;
+        margin: 25px auto 0px  auto;
+        background: linear-gradient(#F6F3F3, #5574e1);
+    }
+}
+@media(max-width: 700px){
+    .contentSideBarForm{
+        width: 75%;
+        margin: 25px auto 0px  auto;
+        background: radial-gradient(#F6F3F3, #5574e1);
+    }
+}
+@media(max-width: 600px){
+    .contentSideBarForm{
+        width: 85%;
+        margin: 25px auto 0px  auto;
+        background: linear-gradient(#F6F3F3, #5574e1);
+    }
+}
+@media(max-width: 500px){
+    .contentSideBarForm{
+        width: 95%;
+        margin: 25px auto 0px  auto;
+        background: linear-gradient(#F6F3F3, #5574e1);
+    }
+}

@@ -1,0 +1,128 @@
+.MonitorContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.menuMonitor{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #193498;
+    position: fixed;
+    z-index: 99;
+}
+.imgLOgoMonitor{
+    width: 10rem;
+    height: 3rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+.menuMonitorInferior{
+    width: 100%;
+    height: 45px;
+    margin-top: 70px;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.MenuLateralAndPainel{
+    width: 100%;
+    display: flex;
+}
+
+/* ================Lateral============ */
+
+.MenuLateral{
+    width: 17%;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    margin-top: 115px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    border-right: 1.3px solid #666;
+    box-shadow: 1px 1px 0px 1px #666;
+}
+.menuMM{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    color: #666;
+    border: none;
+    border-top: 1.5px solid #666;
+    border-bottom: 1.5px solid #666;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editMMonitor{
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    color: #666;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editMMonitor:hover{
+    background-color: #1934987d;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* ================Lateral============ */
+.Painel{
+    margin-top: 115px;
+    margin-left: 17%;
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardMonitor{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(153, 153, 153, 0.434);
+    color: rgba(0, 0, 0, 0.705);
+    box-sizing: border-box;
+    transform: scale(0.90);
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-sizing: 1px 1px 2px 3px rgba(153, 153, 153, 0.317);
+    
+}
+.verdeDivulgar{
+    color: rgba(42, 191, 42, 0.842);
+}
+.editarAmarelo{
+    color: yellow;
+}
+.textMonitor{
+    text-align: justify;
+    margin-top: 10px;
+}
+.cardMonitor{
+    transform: scale(1);
+    transition: 0.3s;
+    cursor: pointer;
+}
